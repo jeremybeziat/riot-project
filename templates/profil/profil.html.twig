@@ -10,12 +10,12 @@
 {% endblock %}
 
 {% block header %}
-<div class="nav">
-<button class="btn_home"><a class="link_home" href={{ path('app_home')}}>Riot</a></button>
-<button class="btn_valorant"><a class="link_valorant" href={{ path('app_home')}}>Valorant</a></button>
-</div> 
+<nav class="nav">
+<a class="link_home" href={{ path('app_home')}}>Riot</a>
+<a class="link_valorant" href={{ path('app_home')}}>Valorant</a>
+</nav>
     <div class="logo"></div>
-    
+   
 {% endblock %}
 
 {% block main %}
@@ -28,8 +28,20 @@
     </div>
 </section>
 <section class="second_section">
-<h2 class="second_h2">ACTUALITÉ</h2>
-<div class="patch">
-<h3 class="second_h3">PATCH 12.7</h3></div>
+    <h2 class="second_h2">ACTUALITÉ //</h2>
+    <div class="categories">
+        <div class="patch">
+            <h3 class="second_h3">PATCH 12.7</h3>
+        </div>
+    
+        <div class="lec">
+            <h3 class="lec_h3">LEC SPRING SPLIT <span class="champion">CHAMPIONS</span></h3>
+        </div>
+      
+        <div class="msi">
+            <h3 class="msi_h3">MSI 2022</h3>
+        </div>
+    </div>
+    
 </section>
 {% endblock %}
