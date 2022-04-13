@@ -26,41 +26,20 @@ header {
     padding-bottom: 10px;
 }
 
+.logo {
+    position: relative;
+    background: url("../image/league_of_legends.png");
+    height: 100px;
+    width: 210px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
 .nav {
     position: absolute;
     right: 50px;
     display: flex;
     justify-content: flex-end;
-}
-
-button {
-    margin-top: 15px;
-    border-radius: 5px;
-    font-family: 'Readex Pro', sans-serif;
-    border: none;
-    background-color: #136566;
-    padding: 15px 30px;
-    transition: 800ms;
-}
-
-.btn_home {
-    margin-right: 70px;
-}
-
-.btn_valorant {
-    margin-right: 50px;
-}
-
-.btn_home:hover{
-    transition: 800ms;
-    transform: scale(1.05);
-    background-color: #cd2a36;
-}
-
-.btn_valorant:hover{
-    transition: 800ms;
-    transform: scale(1.05);
-    background-color: #ff4553;
 }
 
 .link_home,
@@ -70,13 +49,38 @@ button {
     color: #ececec;
 }
 
-.logo {
-    position: relative;
-    background: url("../image/league_of_legends.png");
-    height: 100px;
-    width: 210px;
-    background-size: 200px;
-    background-repeat: no-repeat;
+.link_home {
+    margin-right: 70px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Readex Pro', sans-serif;
+    border: none;
+    background-color: #136566;
+    padding: 15px 30px;
+    transition: 800ms;
+}
+
+.link_valorant {
+    margin-right: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Readex Pro', sans-serif;
+    border: none;
+    background-color: #136566;
+    padding: 15px 30px;
+    transition: 800ms;
+}
+
+.link_home:hover{
+    transition: 800ms;
+    transform: scale(1.05);
+    background-color: #cd2a36;
+}
+
+.link_valorant:hover{
+    transition: 800ms;
+    transform: scale(1.05);
+    background-color: #ff4553;
 }
 
 .first_section {
@@ -100,6 +104,7 @@ button {
 .first_p{
     font-weight: 300;
 }
+
 .second_p {
     font-weight: 300;
     margin-top: 40px;
@@ -116,35 +121,101 @@ button {
     line-height: 1.6rem;
 }
 
+/* ################################## */
+/* ########## ACTUALITÉ ############# */
+/* ################################## */
+
 .second_h2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 90px;
     font-size: 5rem;
 }
 
 .second_h3 {
+    text-shadow: 0px 0px 9px #000000;
     text-align: center;
-    font-size: 4rem;
-    padding-top: 6.8rem;
+    font-size: 3.5rem;
+    padding-top: 5.8rem;
+}
+
+.lec_h3 {
+    text-shadow: 0px 0px 9px #000000;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 4.5rem;
+}
+
+.msi_h3 {
+    text-shadow: 0px 0px 9px #000000;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 5.5rem;
 }
 
 .patch {
-    margin: 50px 100px;
+    margin: 50px 50px 0px 150px;
     background: url("../image/arcana-ahri-lol-skin.jpg") #00000080;
     background-blend-mode: darken;
-    height: 300px;
+    height: 250px;
     background-size: cover;
-    width: 535px;
+    width: 455px;
     background-repeat: no-repeat;
     transition: 800ms;
 }
 
-.patch:hover {
-    transform: scale(1.02);
+.lec {
+    margin: 50px;
+    background: url("../image/lec-champions.jpg") #0000007e;
+    background-blend-mode: darken;
+    height: 250px;
+    background-size: cover;
+    width: 455px;
+    background-repeat: no-repeat;
     transition: 800ms;
+}
+
+.msi {
+    margin: 50px 0 0 60px;
+    background: url("../image/MSI-2022-TAKE-NOTES.jpg") #0000007e;
+    background-blend-mode: darken;
+    height: 250px;
+    background-size: contain;
+    width: 445px;
+    background-repeat: no-repeat;
+    transition: 800ms;
+}
+
+.patch:hover,
+.lec:hover,
+.msi:hover {
+    transform: scale(1.022);
+    transition: 900ms;
+}
+
+.patch:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #fbe297; 
+    box-shadow: 0px 0px 20px 0px #fbe297;
+}
+
+.lec:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #57e1bf; 
+    box-shadow: 0px 0px 20px 0px #57e1bf;
+}
+
+.msi:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px #74ff97; 
+    box-shadow: 0px 0px 20px 0px #74ff97;
 }
 
 .second_section {
     margin-bottom: 30px;
+}
+
+.categories {
+    display: flex;
+}
+
+.champion {
+    color: #64dfc0;
 }
