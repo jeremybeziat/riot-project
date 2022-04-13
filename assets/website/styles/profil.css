@@ -1,124 +1,125 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #131313;
+  background-color: #131313;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: #fff;
-    font-family: "Antonio", sans-serif;
+  color: #fff;
+  font-family: "Antonio", sans-serif;
 }
 
 p {
-    color: #fff;
-    font-family: 'Readex Pro', sans-serif;
+  color: #fff;
+  font-family: "Readex Pro", sans-serif;
 }
 
 header {
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-bottom: 10px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 10px;
 }
 
 .logo {
-    position: relative;
-    background: url("../image/league_of_legends.png");
-    height: 100px;
-    width: 210px;
-    background-size: 200px;
-    background-repeat: no-repeat;
+  position: relative;
+  background: url("../image/league_of_legends.png");
+  height: 100px;
+  width: 210px;
+  background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 .nav {
-    position: absolute;
-    right: 50px;
-    display: flex;
-    justify-content: flex-end;
+  position: absolute;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .link_home,
 .link_valorant {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #ececec;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .link_home {
-    margin-right: 70px;
-    margin-top: 15px;
-    border-radius: 5px;
-    font-family: 'Readex Pro', sans-serif;
-    border: none;
-    background-color: #136566;
-    padding: 15px 30px;
-    transition: 800ms;
+  margin-right: 70px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-family: "Readex Pro", sans-serif;
+  border: none;
+  background-color: #136566;
+  padding: 15px 30px;
+  transition: 800ms;
 }
 
 .link_valorant {
-    margin-right: 50px;
-    margin-top: 15px;
-    border-radius: 5px;
-    font-family: 'Readex Pro', sans-serif;
-    border: none;
-    background-color: #136566;
-    padding: 15px 30px;
-    transition: 800ms;
+  margin-right: 50px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-family: "Readex Pro", sans-serif;
+  border: none;
+  background-color: #136566;
+  padding: 15px 30px;
+  transition: 800ms;
 }
 
-.link_home:hover{
-    transition: 800ms;
-    transform: scale(1.05);
-    background-color: #cd2a36;
+.link_home:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #cd2a36;
 }
 
-.link_valorant:hover{
-    transition: 800ms;
-    transform: scale(1.05);
-    background-color: #ff4553;
+.link_valorant:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #ff4553;
 }
 
 .first_section {
-    background: url("../image/lol-skins-section-anima-miss-fortune-lapin-de-combat.jpg") #000000a4;
-    height: 800px;
-    background-size: 2000px;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    padding-left: 150px;
-    padding-right: 950px;
+  background: url("../image/lol-skins-section-anima-miss-fortune-lapin-de-combat.jpg")
+    #000000a4;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  padding-left: 150px;
+  padding-right: 950px;
+  margin-bottom: 50px;
 }
 
 .first_h1 {
-    margin-left: 20px;
-    color: #ececec;
-    font-size: 6rem;
-    padding-top: 120px;
-    margin-bottom: 40px;
+  margin-left: 20px;
+  color: #fafafa;
+  font-size: 6rem;
+  padding-top: 120px;
+  margin-bottom: 40px;
 }
 
-.first_p{
-    font-weight: 300;
+.first_p {
+  font-weight: 300;
 }
 
 .second_p {
-    font-weight: 300;
-    margin-top: 40px;
-    
+  font-weight: 300;
+  margin-top: 40px;
 }
 
 .paragraphe {
-    padding: 25px 25px;
-    border-radius: 10px;
-    background-color: #00000063;
-    backdrop-filter: blur(4px);
-    text-align: justify;
-    color: #ececec;
-    line-height: 1.6rem;
+  padding: 25px 25px;
+  border-radius: 10px;
+  background-color: #00000063;
+  backdrop-filter: blur(4px);
+  text-align: justify;
+  color: #fafafa;
+  line-height: 1.6rem;
 }
 
 /* ################################## */
@@ -126,96 +127,151 @@ header {
 /* ################################## */
 
 .second_h2 {
-    margin-bottom: 20px;
-    padding-top: 50px;
-    padding-left: 90px;
-    font-size: 5rem;
+  color: #fafafa;
+  margin-bottom: 15px;
+  padding-top: 50px;
+  padding-left: 180px;
+  font-size: 5rem;
 }
 
 .second_h3 {
-    text-shadow: 0px 0px 9px #000000;
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 5.8rem;
+  color: #fafafa;
+  text-shadow: 0px 0px 9px #000000;
+  text-align: center;
+  font-size: 3.2rem;
+  padding-top: 5.8rem;
 }
 
 .lec_h3 {
-    text-shadow: 0px 0px 9px #000000;
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 4.5rem;
+  color: #fafafa;
+  text-shadow: 0px 0px 9px #000000;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4.5rem;
 }
 
 .msi_h3 {
-    text-shadow: 0px 0px 9px #000000;
-    text-align: center;
-    font-size: 3.5rem;
-    padding-top: 5.5rem;
+  color: #fafafa;
+  text-shadow: 0px 0px 9px #000000;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5.2rem;
 }
 
 .patch {
-    margin: 50px 50px 0px 150px;
-    background: url("../image/arcana-ahri-lol-skin.jpg") #00000080;
-    background-blend-mode: darken;
-    height: 250px;
-    background-size: cover;
-    width: 455px;
-    background-repeat: no-repeat;
-    transition: 800ms;
+  margin: 50px 50px 0px 150px;
+  background: url("../image/arcana-ahri-lol-skin.jpg") #00000077;
+  background-blend-mode: darken;
+  height: 250px;
+  background-size: cover;
+  width: 455px;
+  background-repeat: no-repeat;
+  transition: 800ms;
 }
 
 .lec {
-    margin: 50px;
-    background: url("../image/lec-champions.jpg") #0000007e;
-    background-blend-mode: darken;
-    height: 250px;
-    background-size: cover;
-    width: 455px;
-    background-repeat: no-repeat;
-    transition: 800ms;
+  margin: 50px;
+  background: url("../image/lec-champions.jpg") #00000071;
+  background-blend-mode: darken;
+  height: 250px;
+  background-size: cover;
+  width: 455px;
+  background-repeat: no-repeat;
+  transition: 800ms;
 }
 
 .msi {
-    margin: 50px 0 0 60px;
-    background: url("../image/MSI-2022-TAKE-NOTES.jpg") #0000007e;
-    background-blend-mode: darken;
-    height: 250px;
-    background-size: contain;
-    width: 445px;
-    background-repeat: no-repeat;
-    transition: 800ms;
+  margin: 50px 0 0 60px;
+  background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
+  background-blend-mode: darken;
+  height: 250px;
+  background-size: contain;
+  width: 445px;
+  background-repeat: no-repeat;
+  transition: 800ms;
 }
 
 .patch:hover,
 .lec:hover,
 .msi:hover {
-    transform: scale(1.022);
-    transition: 900ms;
+  transform: scale(1.022);
+  transition: 900ms;
 }
 
 .patch:hover {
-    -webkit-box-shadow: 0px 0px 20px 0px #fbe297; 
-    box-shadow: 0px 0px 20px 0px #fbe297;
+  -webkit-box-shadow: 0px 0px 30px 0px #fbe297;
+  box-shadow: 0px 0px 30px 0px #fbe297;
 }
 
 .lec:hover {
-    -webkit-box-shadow: 0px 0px 20px 0px #57e1bf; 
-    box-shadow: 0px 0px 20px 0px #57e1bf;
+  -webkit-box-shadow: 0px 0px 30px 0px #57e1bf;
+  box-shadow: 0px 0px 30px 0px #57e1bf;
 }
 
 .msi:hover {
-    -webkit-box-shadow: 0px 0px 20px 0px #74ff97; 
-    box-shadow: 0px 0px 20px 0px #74ff97;
+  -webkit-box-shadow: 0px 0px 30px 0px #a2ffcf;
+  box-shadow: 0px 0px 30px 0px #a2ffcf;
 }
 
 .second_section {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .categories {
-    display: flex;
+  display: flex;
 }
 
 .champion {
-    color: #64dfc0;
+  color: #64dfc0;
+}
+
+.prestige_section {
+  margin-top: 100px;
+  background: url("../image/jinx-chat-de-combat-prestige.jpg") #00000079;
+  background-blend-mode: darken;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third_h2 {
+  color: #fafafa;
+  font-size: 5rem;
+  padding: 80px 0 30px 100px;
+}
+
+.prestige {
+  padding-left: 10px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #f8f843;
+}
+
+.third_h3 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #fafafa;
+  font-size: 2rem;
+  padding-left: 200px;
+}
+
+.skin-prestige {
+  background: url("../image/jinx-chat-de-combat.jpg") #0000002b;
+  background-blend-mode: darken;
+  height: 338px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 120px 0 0 150px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 0px #14e67a;
+  box-shadow: 0px 0px 15px 0px #14e67a;
+}
+
+.skin {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 280px;
 }
