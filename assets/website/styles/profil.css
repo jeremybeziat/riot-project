@@ -162,7 +162,7 @@ header {
   margin: 50px 50px 0px 150px;
   background: url("../image/arcana-ahri-lol-skin.jpg") #00000077;
   background-blend-mode: darken;
-  height: 250px;
+  height: 260px;
   background-size: cover;
   width: 455px;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ header {
   margin: 50px;
   background: url("../image/lec-champions.jpg") #00000071;
   background-blend-mode: darken;
-  height: 250px;
+  height: 260px;
   background-size: cover;
   width: 455px;
   background-repeat: no-repeat;
@@ -184,9 +184,9 @@ header {
   margin: 50px 0 0 60px;
   background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
   background-blend-mode: darken;
-  height: 250px;
+  height: 260px;
   background-size: contain;
-  width: 445px;
+  width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
 }
