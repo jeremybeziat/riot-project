@@ -11,12 +11,10 @@ h1,
 h2,
 h3,
 h4 {
-  color: #fff;
   font-family: "Antonio", sans-serif;
 }
 
 p {
-  color: #fff;
   font-family: "Readex Pro", sans-serif;
 }
 
@@ -126,6 +124,14 @@ header {
 /* ########## ACTUALITÉ ############# */
 /* ################################## */
 
+.categories {
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0 80px 0;
+}
+
 .second_h2 {
   color: #fafafa;
   margin-bottom: 15px;
@@ -159,7 +165,7 @@ header {
 }
 
 .patch {
-  margin: 50px 50px 0px 150px;
+  margin: 0 100px 70px 0;
   background: url("../image/arcana-ahri-lol-skin.jpg") #00000077;
   background-blend-mode: darken;
   height: 260px;
@@ -170,7 +176,7 @@ header {
 }
 
 .lec {
-  margin: 50px;
+  margin: 0 100px 70px 0;
   background: url("../image/lec-champions.jpg") #00000071;
   background-blend-mode: darken;
   height: 260px;
@@ -181,20 +187,26 @@ header {
 }
 
 .msi {
-  margin: 50px 0 0 60px;
+  margin: 0 100px 70px 0;
   background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
   background-blend-mode: darken;
-  height: 260px;
+  height: 256px;
   background-size: contain;
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
 }
 
+.patch a,
+.lec a,
+.msi a {
+  text-decoration: none;
+}
+
 .patch:hover,
 .lec:hover,
 .msi:hover {
-  transform: scale(1.022);
+  transform: scale(1.020);
   transition: 900ms;
 }
 
@@ -217,10 +229,6 @@ header {
   margin-bottom: 30px;
 }
 
-.categories {
-  display: flex;
-}
-
 .champion {
   color: #64dfc0;
 }
@@ -229,7 +237,7 @@ header {
   margin-top: 100px;
   background: url("../image/jinx-chat-de-combat-prestige.jpg") #00000079;
   background-blend-mode: darken;
-  height: 800px;
+  height: 950px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -237,14 +245,14 @@ header {
 .third_h2 {
   color: #fafafa;
   font-size: 5rem;
-  padding: 80px 0 30px 100px;
+  padding: 115px 0 30px 100px;
 }
 
 .prestige {
   padding-left: 10px;
   font-size: 2.5rem;
   font-weight: 800;
-  color: #f8f843;
+  color: #ffec5f;
 }
 
 .third_h3 {
@@ -257,16 +265,7 @@ header {
 }
 
 .skin-prestige {
-  background: url("../image/jinx-chat-de-combat.jpg") #0000002b;
-  background-blend-mode: darken;
-  height: 338px;
-  width: 600px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin: 120px 0 0 150px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 15px 0px #14e67a;
-  box-shadow: 0px 0px 15px 0px #14e67a;
+  padding: 80px 100px;
 }
 
 .skin {
@@ -274,4 +273,54 @@ header {
   font-size: 2rem;
   text-align: center;
   padding-top: 280px;
+}
+
+footer {
+  height: 235px;
+  background: #252422;
+}
+
+.logo_footer {
+  background: url("../image/Riot_Games-Logo.wine.png");
+  height: 110px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 49.4%;
+  margin-bottom: 10px;
+}
+
+li {
+  line-height: 2.8rem;
+  font-family: "Antonio", sans-serif;
+  font-size: 1.2rem;
+}
+
+li a {
+  font-weight: 700;
+  margin: 15px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #656462;
+  transition: 800ms;
+}
+
+.link_footer:hover {
+  font-weight: 700;
+  color: #fafafa;
+  transition: 500ms;
+  font-size: 1.3rem;
+}
+
+.link_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 35px;
+    text-align: center;
+    color: #656462;
+    font-weight: 300;
 }
