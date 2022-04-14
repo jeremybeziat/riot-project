@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         
-        <title>Riot | {% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +13,7 @@
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {# {{ encore_entry_link_tags('app') }} #}
         {% block stylesheets %}
-            
-        {% endblock %}
-
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
+            {{ encore_entry_link_tags('profil') }}
         {% endblock %}
     </head>
     <body>
@@ -30,5 +26,20 @@
         {% block main %}
         {% endblock %}
         </main>
+        <footer>
+        {% block footer %}
+            <div class="logo_footer">
+            </div>
+            <ul class="link_ul">
+                <li><a class="link_footer" href="https://www.riotgames.com/fr/securite">SÉCURITÉ</a></li> 
+                <li><a class="link_footer" href="https://www.riotgames.com/fr/mentions-legales">MENTIONS LÉGALES</a></li>
+                <li><a class="link_footer" href="https://www.riotgames.com/fr/privacy-notice-FR">POLITIQUE DE CONFIDENTIALITÉ</a></li>     
+                <li><a class="link_footer" href="https://www.riotgames.com/fr/terms-of-service-FR">CONDITIONS GÉNÉRALES D'UTILISATION</a></li>
+                <li><a class="link_footer" href="https://support.riotgames.com/hc/fr">SUPPORT</a></li>
+                <li><a class="link_footer" href="https://www.riotgames.com/fr/accessibility">ACCESSIBILITÉ</a></li>     
+            </ul>
+            <p class="copyright">© 2022 Riot Games, Inc. Tous droits réservés.</p>
+        {% endblock %}
+        </footer>
     </body>
 </html>
