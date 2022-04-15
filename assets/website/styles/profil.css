@@ -324,3 +324,11 @@ li a {
     color: #656462;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 1600px){
+  .first_section {
+  padding-left: 150px;
+  padding-right: 750px;
+  margin-bottom: 50px;
+}
+}
