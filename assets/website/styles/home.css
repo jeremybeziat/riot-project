@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #131313;
+  background-color: #111111;
 }
 
 h1,
@@ -21,9 +21,10 @@ p {
 }
 
 header {
-  padding-top: 30px;
+  color: #111111;
+  padding-top: 40px;
   padding-left: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -33,7 +34,7 @@ header {
   width: 210px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 70%;
+  background-position-y: 65%;
 }
 
 .nav {
@@ -84,12 +85,13 @@ header {
 }
 
 .first_section {
-  background: url("../image/riot-games.jpg") #00000040;
-  height: 1060px;
+  background: url("../image/riot-mobile.gif") #00000044;
+  height: 880px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  padding-left: 150px;
-  padding-right: 950px;
+  background-position-x: center;
+  background-position-y: center;
   margin-bottom: 50px;
 }
 
@@ -100,9 +102,9 @@ header {
 .categories {
   display: flex;
   flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 0 80px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0 80px 0;
 }
 
 .second_h2 {
@@ -115,8 +117,8 @@ header {
 .second_h3 {
   text-shadow: 0px 0px 9px #000000;
   text-align: center;
-  font-size: 3.2rem;
-  padding-top: 5.8rem;
+  font-size: 3rem;
+  padding-top: 4.5rem;
 }
 
 .tft_h3 {
@@ -126,12 +128,6 @@ header {
   padding-top: 4.8rem;
 }
 
-.world {
-  font-weight: bolder;
-  letter-spacing: 1.5px;
-  color: #fdf73f;
-}
-
 .league_h3 {
   text-shadow: 0px 0px 9px #000000;
   text-align: center;
@@ -139,15 +135,24 @@ header {
   padding-top: 4.8rem;
 }
 
+.prime_h3 {
+  text-shadow: 0px 0px 9px #000000;
+  text-align: center;
+  font-size: 2.8rem;
+  padding-top: 5.8rem;
+}
+
 .patch {
   margin: 0 100px 70px 0;
   background: url("../image/Valorant-Ranking-distribution.jpg") #00000043;
-  background-blend-mode: darken;
   height: 260px;
   background-size: cover;
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #ffffff7c;
+  box-shadow: 0px 0px 15px 0px #ff12127c;
 }
 
 .patch a {
@@ -163,6 +168,9 @@ header {
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #b27d0267;
+  box-shadow: 0px 0px 15px 0px #b27d0267;
 }
 
 .teamfight a {
@@ -170,7 +178,7 @@ header {
 }
 
 .league {
-  margin: 0 100px 70px 0;
+  margin: 0 0 70px 0;
   background: url("../image/sylas-loup-de-combat.jpg") #00000065;
   background-blend-mode: darken;
   height: 256px;
@@ -178,10 +186,72 @@ header {
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #ff4df070;
+  box-shadow: 0px 0px 15px 0px #ff4df070;
 }
 
 .league a {
   text-decoration: none;
+}
+
+.arcana {
+  margin: 0 100px 70px 0;
+  background: url("../image/arcana-skin.jpg") #00000065;
+  background-blend-mode: darken;
+  height: 256px;
+  background-size: cover;
+  width: 455px;
+  background-repeat: no-repeat;
+  transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #fbe29780;
+  box-shadow: 0px 0px 15px 0px #fbe29780;
+}
+
+.arcana a {
+  text-decoration: none;
+}
+
+.msi {
+  margin: 0 100px 70px 0;
+  background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
+  background-blend-mode: darken;
+  height: 256px;
+  background-size: contain;
+  width: 455px;
+  background-repeat: no-repeat;
+  transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #a2ffcf5e;
+  box-shadow: 0px 0px 15px 0px #a2ffcf91;
+}
+
+.msi a {
+  text-decoration: none;
+}
+
+.primegaming {
+  margin: 0 0 70px 0;
+  background: url("../image/prime-lol.jpg") #0000004f;
+  background-blend-mode: darken;
+  height: 256px;
+  background-size: cover;
+  width: 455px;
+  background-repeat: no-repeat;
+  transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #8956ff77;
+  box-shadow: 0px 0px 15px 0px #8956ff77;
+}
+
+.primegaming a {
+  text-decoration: none;
+}
+
+.valorant-patch {
+  font-size: 2.5rem;
+  color: #ff5b6b;
 }
 
 .disponible {
@@ -189,9 +259,22 @@ header {
   color: #ff4df0;
 }
 
+.disponible2 {
+  font-size: 2.5rem;
+  color: #ffde4d;
+}
+
+.world {
+  letter-spacing: 1.5px;
+  color: #fdc13f;
+}
+
 .patch:hover,
 .teamfight:hover,
-.league:hover {
+.league:hover,
+.arcana:hover,
+.msi:hover,
+.primegaming:hover {
   transform: scale(1.02);
   transition: 900ms;
 }
@@ -202,8 +285,8 @@ header {
 }
 
 .teamfight:hover {
-  -webkit-box-shadow: 0px 0px 30px 0px #fff950;
-  box-shadow: 0px 0px 30px 0px #fff950;
+  -webkit-box-shadow: 0px 0px 30px 0px #b27c02;
+  box-shadow: 0px 0px 30px 0px #b27c02;
 }
 
 .league:hover {
@@ -211,55 +294,217 @@ header {
   box-shadow: 0px 0px 30px 0px #ff4df0;
 }
 
-.second_section {
-  margin-bottom: 30px;
+.arcana:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #fbe297;
+  box-shadow: 0px 0px 30px 0px #fbe297;
 }
 
-.prestige_section {
-  margin-top: 100px;
-  background: url("../image/jinx-chat-de-combat-prestige.jpg") #00000079;
-  background-blend-mode: darken;
-  height: 950px;
-  background-size: cover;
-  background-repeat: no-repeat;
+.msi:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #a2ffcf;
+  box-shadow: 0px 0px 30px 0px #a2ffcf;
 }
 
-.third_h2 {
+.primegaming:hover {
+  -webkit-box-shadow: 0px 0px 30px 0px #8856ff;
+  box-shadow: 0px 0px 30px 0px #8856ff;
+}
+
+/* ################################## */
+/* ########## SECTION ############# */
+/* ################################## */
+
+.play_section {
+  padding: 0px 150px 50px 150px;
+}
+
+.play_h2 {
+  text-align: center;
   font-size: 5rem;
-  padding: 115px 0 30px 100px;
+  margin-bottom: 50px;
 }
 
-.prestige {
-  padding-left: 10px;
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: #ffec5f;
-}
-
-.third_h3 {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 2rem;
-  padding-left: 200px;
-}
-
-.skin-prestige {
-  background: url("../image/jinx-chat-de-combat.jpg") #0000002b;
+.legends {
+  background: url("../image/League-of-Legends-2022.jpg") #0000005d;
   background-blend-mode: darken;
-  height: 338px;
-  width: 600px;
   background-repeat: no-repeat;
-  background-size: contain;
-  margin: 120px 0 0 150px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 15px 0px #14e67a;
-  box-shadow: 0px 0px 15px 0px #14e67a;
+  background-size: cover;
+  background-position-x: center;
+  height: 870px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #33cfff9c;
+  margin-bottom: 150px;
+  transition: 800ms;
 }
+
+.legends:hover {
+  transition: 800ms;
+  box-shadow: 0px 0px 40px 0px #1cbef0;
+}
+
+.valorant {
+  background: url("../image/valorant-fond.jpg") #00000046;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -40px;
+  height: 870px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #ff253b8e;
+  margin-bottom: 150px;
+  transition: 800ms;
+}
+
+.valorant:hover {
+  transition: 800ms;
+  box-shadow: 0px 0px 40px 0px #fc4759;
+}
+
+.runeterra {
+  background: url("../image/runeterra.jpg") #0000005d;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 870px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #67ffc098;
+  transition: 800ms;
+  margin-bottom: 150px;
+}
+
+.runeterra:hover {
+  transition: 800ms;
+  box-shadow: 0px 0px 40px 0px #3fb3ac;
+}
+
+.tactics {
+  background: url("../image/tft-fond.jpg") #00000033;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 870px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #c58d32;
+  transition: 800ms;
+}
+
+.tactics:hover {
+  transition: 800ms;
+  box-shadow: 0px 0px 40px 0px #ffb641;
+}
+
+.youtube {
+  border-radius: 15px;
+  position: absolute;
+  margin-left: 27rem;
+  margin-top: 16rem;
+}
+
+.button-play {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  margin-left: 42rem;
+  margin-top: 45rem;
+  position: absolute;
+  background: #337cac6c;
+  backdrop-filter: blur(2px);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: "Antonio", sans-serif;
+  transition: 800ms;
+}
+
+.button-play2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  margin-left: 42rem;
+  margin-top: 45rem;
+  position: absolute;
+  background: #fd2b3c4f;
+  backdrop-filter: blur(2px);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: "Antonio", sans-serif;
+  transition: 800ms;
+}
+
+.button-play3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  margin-left: 42rem;
+  margin-top: 45rem;
+  position: absolute;
+  background: #3fb3ab80;
+  backdrop-filter: blur(2px);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: "Antonio", sans-serif;
+  transition: 800ms;
+}
+
+.button-play4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  margin-left: 42rem;
+  margin-top: 45rem;
+  position: absolute;
+  background: #c58d3271;
+  backdrop-filter: blur(2px);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-family: "Antonio", sans-serif;
+  transition: 800ms;
+}
+
+.button-play:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #0f6d8a;
+}
+
+.button-play2:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #ff4553;
+}
+
+.button-play3:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #1f8b74;
+}
+
+.button-play4:hover {
+  transition: 800ms;
+  transform: scale(1.05);
+  background-color: #c58d32;
+}
+
+/* ################################## */
+/* ########## FOOTER ############# */
+/* ################################## */
 
 footer {
+  margin-top: 50px;
   height: 235px;
-  background: #252422;
+  background: #252423;
 }
 
 .logo_footer {
@@ -300,9 +545,9 @@ li a {
 }
 
 .copyright {
-    font-size: 0.9rem;
-    margin-top: 35px;
-    text-align: center;
-    color: #656462;
-    font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 35px;
+  text-align: center;
+  color: #656462;
+  font-weight: 300;
 }

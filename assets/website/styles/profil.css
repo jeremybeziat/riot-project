@@ -19,9 +19,10 @@ p {
 }
 
 header {
-  padding-top: 30px;
+  color: #111111;
+  padding-top: 40px;
   padding-left: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -173,6 +174,9 @@ header {
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #fbe29783;
+  box-shadow: 0px 0px 15px 0px #fbe29783;
 }
 
 .lec {
@@ -184,6 +188,9 @@ header {
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #57e1be98;
+  box-shadow: 0px 0px 15px 0px #57e1be98;
 }
 
 .msi {
@@ -195,6 +202,9 @@ header {
   width: 455px;
   background-repeat: no-repeat;
   transition: 800ms;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 10px 0px #a2ffcf5e;
+  box-shadow: 0px 0px 15px 0px #a2ffcf5e;
 }
 
 .patch a,
@@ -268,6 +278,11 @@ header {
   padding: 80px 100px;
 }
 
+.youtube {
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px #ffe136;
+}
+
 .skin {
   color: #ffffff;
   font-size: 2rem;
@@ -277,7 +292,7 @@ header {
 
 footer {
   height: 235px;
-  background: #252422;
+  background: #252423;
 }
 
 .logo_footer {
