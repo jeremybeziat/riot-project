@@ -13,6 +13,7 @@ class ProfilController extends AbstractController
     {
         return $this->render('profil/profil.html.twig', [
             'controller_name' => 'ProfilController',
+            'slash' => '//',
         ]);
     }
 }
