@@ -21,13 +21,16 @@ p {
 }
 
 header {
-  color: #111111;
-  padding-top: 40px;
+  position: sticky;
+  background: #161616;
+  padding-top: 15px;
   padding-left: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  z-index: 1;
+  top: 0;
 }
 
-.logo {
+.logo{
   position: relative;
   background: url("../image/Riot_Games-Logo.wine.png");
   height: 100px;
@@ -35,6 +38,17 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 65%;
+  transition: 800ms;
+}
+
+.link_logo {
+  padding: 50px 100px 80px;
+}
+
+.logo:hover {
+filter: hue-rotate(380deg); 
+transition: 1200ms;
+  transform: scale(1.05);
 }
 
 .nav {
@@ -85,14 +99,14 @@ header {
 }
 
 .first_section {
-  background: url("../image/riot-mobile.gif") #00000044;
+  background: url("../image/riot-mobile.gif") #00000027;
   height: 880px;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-position-x: center;
   background-position-y: center;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 /* ################################## */
@@ -104,13 +118,11 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0 80px 0;
+  padding: 80px 0 80px 0;
 }
 
 .second_h2 {
-  margin-bottom: 15px;
-  padding-top: 50px;
-  padding-left: 180px;
+  text-align: center;
   font-size: 5rem;
 }
 
@@ -314,7 +326,7 @@ header {
 /* ################################## */
 
 .play_section {
-  padding: 0px 150px 50px 150px;
+  padding: 0px 200px 50px 200px;
 }
 
 .play_h2 {
@@ -329,7 +341,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  height: 870px;
+  height: 750px;
   border-radius: 15px;
   box-shadow: 0px 0px 15px 0px #33cfff9c;
   margin-bottom: 150px;
@@ -346,8 +358,7 @@ header {
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -40px;
-  height: 870px;
+  height: 750px;
   border-radius: 15px;
   box-shadow: 0px 0px 15px 0px #ff253b8e;
   margin-bottom: 150px;
@@ -365,7 +376,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  height: 870px;
+  height: 750px;
   border-radius: 15px;
   box-shadow: 0px 0px 15px 0px #67ffc098;
   transition: 800ms;
@@ -383,7 +394,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  height: 870px;
+  height: 750px;
   border-radius: 15px;
   box-shadow: 0px 0px 15px 0px #c58d32;
   transition: 800ms;
@@ -398,7 +409,7 @@ header {
   border-radius: 15px;
   position: absolute;
   margin-left: 27rem;
-  margin-top: 16rem;
+  margin-top: 14rem;
 }
 
 .button-play {
@@ -406,8 +417,8 @@ header {
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 1.5px;
-  margin-left: 42rem;
-  margin-top: 45rem;
+  margin-left: 40rem;
+  margin-top: 40rem;
   position: absolute;
   background: #337cac6c;
   backdrop-filter: blur(2px);
@@ -424,8 +435,8 @@ header {
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 1.5px;
-  margin-left: 42rem;
-  margin-top: 45rem;
+  margin-left: 40rem;
+  margin-top: 40rem;
   position: absolute;
   background: #fd2b3c4f;
   backdrop-filter: blur(2px);
@@ -442,8 +453,8 @@ header {
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 1.5px;
-  margin-left: 42rem;
-  margin-top: 45rem;
+  margin-left: 40rem;
+  margin-top: 40rem;
   position: absolute;
   background: #3fb3ab80;
   backdrop-filter: blur(2px);
@@ -460,8 +471,8 @@ header {
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 1.5px;
-  margin-left: 42rem;
-  margin-top: 45rem;
+  margin-left: 40rem;
+  margin-top: 40rem;
   position: absolute;
   background: #c58d3271;
   backdrop-filter: blur(2px);
@@ -502,7 +513,7 @@ header {
 /* ################################## */
 
 footer {
-  margin-top: 50px;
+  margin-top: 100px;
   height: 235px;
   background: #252423;
 }
