@@ -9,14 +9,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class HomeController extends AbstractController
 {
     #[Route('/Riot', name: 'app_home')]
-    // public function index(): Response
     public function number(): Response
     {
 
-            $number = random_int(1000,5000);
+            $number = random_int(1,500);
             return $this->render('home/home.html.twig', [
             'controller_name' => 'HomeController',
             'slash' => '//',
+            'bienvenue' => 'BIENVENUE JOUEUR',
             'number' => $number]);
     }
 }
