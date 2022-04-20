@@ -9,7 +9,6 @@ use Symfony\Component\Routing\Annotation\Route;
 class HomeController extends AbstractController
 {
     #[Route('/Riot', name: 'app_home')]
-    // public function index(): Response
     public function number(): Response
     {
 
@@ -17,6 +16,7 @@ class HomeController extends AbstractController
             return $this->render('home/home.html.twig', [
             'controller_name' => 'HomeController',
             'slash' => '//',
+            'bienvenue' => 'BIENVENUE JOUEUR',
             'number' => $number]);
     }
 }
