@@ -33,7 +33,7 @@ header {
 
 .logo {
   position: relative;
-  background: url("../image/league_of_legends.png");
+  background: url("../image/League-of-Legends/league_of_legends.png");
   height: 100px;
   width: 210px;
   background-size: 190px;
@@ -100,7 +100,7 @@ transition: 800ms;
 }
 
 .first_section {
-  background: url("../image/lol-skins-section-anima-miss-fortune-lapin-de-combat.jpg")
+  background: url("../image//League-of-Legends/lol-skins-section-anima-miss-fortune-lapin-de-combat.jpg")
     #000000a4;
   height: 800px;
   background-size: cover;
@@ -178,7 +178,7 @@ transition: 800ms;
 
 .patch {
   margin: 0 100px 70px 0;
-  background: url("../image/arcana-ahri-lol-skin.jpg") #00000077;
+  background: url("../image//League-of-Legends/arcana-ahri-lol-skin.jpg") #00000077;
   background-blend-mode: darken;
   height: 260px;
   background-size: cover;
@@ -192,7 +192,7 @@ transition: 800ms;
 
 .lec {
   margin: 0 100px 70px 0;
-  background: url("../image/lec-champions.jpg") #00000071;
+  background: url("../image//League-of-Legends/lec-champions.jpg") #00000071;
   background-blend-mode: darken;
   height: 260px;
   background-size: cover;
@@ -206,7 +206,7 @@ transition: 800ms;
 
 .msi {
   margin: 0 0px 70px 0;
-  background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
+  background: url("../image/League-of-Legends/MSI-2022-TAKE-NOTES.jpg") #00000063;
   background-blend-mode: darken;
   height: 256px;
   background-size: contain;
@@ -256,7 +256,7 @@ transition: 800ms;
 
 .prestige_section {
   margin-top: 100px;
-  background: url("../image/jinx-chat-de-combat-prestige.jpg") #00000079;
+  background: url("../image/League-of-Legends/jinx-chat-de-combat-prestige.jpg") #00000079;
   background-blend-mode: darken;
   height: 1020px;
   background-size: cover;
@@ -298,7 +298,7 @@ footer {
 }
 
 .logo_footer {
-  background: url("../image/Riot_Games-Logo.wine.png");
+  background: url("../image/Riot-games/Riot_Games-Logo.wine.png");
   height: 110px;
   background-size: 200px;
   background-repeat: no-repeat;
