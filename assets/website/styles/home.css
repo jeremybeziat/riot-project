@@ -33,7 +33,7 @@ header {
 
 .logo {
   position: relative;
-  background: url("../image/Riot_Games-Logo.wine.png");
+  background: url("../image/Riot-games/Riot_Games-Logo.wine.png");
   height: 100px;
   width: 210px;
   background-size: cover;
@@ -120,11 +120,12 @@ header {
 	background-size: 300%;
   text-align: center;
 	font-size: 4.5rem;
-	-webkit-background-clip: text;
+  -webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animated_text 10s ease-in-out infinite;
-	-moz-animation: animated_text 10s ease-in-out infinite;
-	-webkit-animation: animated_text 10s ease-in-out infinite;
+	animation: animated_text 5s ease-in-out infinite;
+	-moz-animation: animated_text 5s ease-in-out infinite;
+	-webkit-animation: animated_text 5s ease-in-out infinite;
   padding: 30px 0
 }
 
@@ -149,7 +150,7 @@ header {
 }
 
 .first_section {
-  background: url("../image/riot-mobile.gif") #00000027;
+  background: url("../image/Riot-games/riot-mobile.gif") #00000027;
   height: 880px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -206,7 +207,7 @@ header {
 
 .patch {
   margin: 0 100px 70px 0;
-  background: url("../image/Valorant-Ranking-distribution.jpg") #00000043;
+  background: url("../image/Valorant/Valorant-Ranking-distribution.jpg") #00000043;
   height: 260px;
   background-size: cover;
   width: 455px;
@@ -223,7 +224,7 @@ header {
 
 .teamfight {
   margin: 0 100px 70px 0;
-  background: url("../image/world-cup-tft.jpg") #0000004a;
+  background: url("../image/teamfight-tactics/world-cup-tft.jpg") #0000004a;
   background-blend-mode: darken;
   height: 260px;
   background-size: cover;
@@ -241,7 +242,7 @@ header {
 
 .league {
   margin: 0 0 70px 0;
-  background: url("../image/sylas-loup-de-combat.jpg") #00000065;
+  background: url("../image/League-of-Legends/sylas-loup-de-combat.jpg") #00000065;
   background-blend-mode: darken;
   height: 256px;
   background-size: cover;
@@ -259,7 +260,7 @@ header {
 
 .arcana {
   margin: 0 100px 70px 0;
-  background: url("../image/arcana-skin.jpg") #00000065;
+  background: url("../image/League-of-Legends/arcana-skin.jpg") #00000065;
   background-blend-mode: darken;
   height: 256px;
   background-size: cover;
@@ -277,7 +278,7 @@ header {
 
 .msi {
   margin: 0 100px 70px 0;
-  background: url("../image/MSI-2022-TAKE-NOTES.jpg") #00000063;
+  background: url("../image/League-of-Legends/MSI-2022-TAKE-NOTES.jpg") #00000063;
   background-blend-mode: darken;
   height: 256px;
   background-size: contain;
@@ -295,7 +296,7 @@ header {
 
 .primegaming {
   margin: 0 0 70px 0;
-  background: url("../image/prime-lol.jpg") #0000004f;
+  background: url("../image/League-of-Legends/prime-lol.jpg") #0000004f;
   background-blend-mode: darken;
   height: 256px;
   background-size: cover;
@@ -386,7 +387,7 @@ header {
 }
 
 .legends {
-  background: url("../image/League-of-Legends-2022.jpg") #0000005d;
+  background: url("../image/League-of-Legends/League-of-Legends-2022.jpg") #0000005d;
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,7 +405,7 @@ header {
 }
 
 .valorant {
-  background: url("../image/valorant-fond.jpg") #00000046;
+  background: url("../image/Valorant/valorant-fond.jpg") #00000046;
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -421,7 +422,7 @@ header {
 }
 
 .runeterra {
-  background: url("../image/runeterra.jpg") #0000005d;
+  background: url("../image//Runeterra/runeterra.jpg") #0000005d;
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,7 +440,7 @@ header {
 }
 
 .tactics {
-  background: url("../image/tft-fond.jpg") #00000033;
+  background: url("../image//teamfight-tactics/tft-fond.jpg") #00000033;
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -569,7 +570,7 @@ footer {
 }
 
 .logo_footer {
-  background: url("../image/Riot_Games-Logo.wine.png");
+  background: url("../image/Riot-games/Riot_Games-Logo.wine.png");
   height: 110px;
   background-size: 200px;
   background-repeat: no-repeat;
